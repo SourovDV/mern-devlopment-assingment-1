@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.banner {
+    border-radius: 16px;
+    background-image: url(..//picture/Banner\ Image.png);
+    filter: brightness(90%);
+    text-shadow: 2px 2px #ffffff;
+    width: 68%;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+   
+}
+
+.banner .banner-text {
+    color:white;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 177px 520px 0px;
+}
+.banner .banner-body{
+    color:rgb(236, 228, 228);
+    padding:0px 344px 177px 480px;
+   font-size: 52px;
+    max-width: 30%;
+    text-align-last: center ;
+
+}
+.text{
+    text-align: center;
+}
+.text .text-h1{
+    color:red;
+    font-size: 58px;
+    padding: 10px 0px 0px 0px;
+}
+.text .text-h2{
+    color:red;
+    font-size:18px;
+    
+
+}
+.text.text-h3{
+    font-size:48px ;
+}
+ 
+     
+.text img{
+    width: 700px;
+    margin-bottom: 7%;
+}     
+ 
+.contain{
+    width: 68%;
+    background-image: url(../picture/Vectorrr.png);
+    margin:20px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 540px;
+    padding-top:60px;
+}
+ img{
+    width: 300px;
+    margin-right: 97px;
+    margin-top: 50px;
+     
+}
+.contain-box{
+    text-align: center;
+}
+.contain-box h1 {
+    color:white;
+    width:60%;
+    font-size: 64px;
+}
+.contain-box h3{
+    color:white;
+    font-size:20px;
+    width:55%;
+    padding-left:25px
+    
+}
+.contain-box button{
+    background-color:rgb(145, 116, 116);
+   display: flex;
+   margin-left:25px;
+   padding:10px;
+   background-color: chocolate;
+   border-radius: 10px;
+}
